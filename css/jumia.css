@@ -1,0 +1,938 @@
+html{
+    min-height: 100%;
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav{
+    padding-top: 10px;
+    background: #000;
+    height: 50px;
+}
+
+.nav h1{
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.7px;
+    margin-right: 10px;
+    position: absolute;
+    top: 1px;
+    margin-left: 90px;
+}
+
+.nav h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 31px;
+    letter-spacing: 0.7px;
+    margin-left: 350px;
+    position: absolute;
+    top: -3px;
+}
+
+.nav h3{
+    color: #fff;
+    font-weight: normal;
+    font-size: 28px;
+    letter-spacing: 0.7px;
+    margin-left: 600px;
+    position: absolute;
+    top: -2px;
+    letter-spacing: 6.7px;
+    font-family: sans-serif;
+}
+
+.nav h4{
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 0.1px;
+    margin-left: 850px;
+    position: absolute;
+    top: 7px;
+}
+
+.nav .btn{
+    float: right;
+    background: orange;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 50px;
+    height: 60px;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.menu{
+    display: flex;
+   background: rgb(216, 221, 230);
+    align-items: center;
+    padding: -50px;
+   list-style: none;
+    height: 50px;
+    list-style: none;
+}
+ h5 a{
+    color: orange;
+    margin-left: 20px;
+    font-size: 15px;
+}
+h5 a:hover{
+    color: orange;
+}
+
+ul li a{
+    color: rgb(109, 108, 103);
+    margin: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul li a:hover{
+    color: orange;
+}
+.menu ul{
+    list-style: none;
+    overflow: hidden;
+    margin-left: 530;
+    display: inherit;
+    margin-left: 381px;
+}
+
+.menu ul li{
+    
+    overflow: hidden;
+    margin: 67px;
+}  
+
+.box {
+    
+    background: #fff;   
+}
+.jma{
+    position: absolute;
+}
+.box ul{
+    float: right;
+    display: flex;
+    margin: 0px 50px;
+    padding: 14px;
+    margin-right: 68px;
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    
+} 
+.box input{
+   
+    width: 400px;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 18px;
+    font-size: 16px;
+    border: 1px solid rgb(196, 194, 191);
+    border-radius: 5px;
+    margin-left: 290px;
+    margin-top: 19px;
+}
+.rch{
+    width: 120px;
+    padding: 10px;
+    color: #fff;
+    background: orange;
+    border: orange;
+    box-shadow: rgb(68, 66, 66);
+    cursor: pointer;
+}
+#container{
+    width: 678px;
+    overflow: hidden;
+    margin-left: 290px;
+}
+#sliderbox{
+    position: relative;
+    width: 3200px;
+    animation-name: slideranimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+#sliderbox img{
+    float: left;
+}
+@keyframes slideranimation{
+    0%
+    {
+        left: 0px;
+    }
+    20% /* 4 second */
+    {
+        left: 0px;
+    }
+    25% /* 5 second */
+    {
+        left: -800px;
+    }
+    45% /* 5 second */
+    {
+        left: -800px;
+    }
+    50% /* 10 second */
+    {
+        left: -1600px;
+    }
+    70% /* 14 second */
+    {
+        left: -1600px;
+    }
+    75% /* 15 second */
+    {
+        left: -2400px;
+    }
+}
+
+.form{
+    
+    width: 315px;
+    top: 206px;
+    left: 21px;
+    position: absolute;
+}
+ul{
+    background: white;
+    width: 184px;
+    margin: -6px;
+    border-radius: 7px;
+    font-size: small;
+    margin-left: 16px;
+}
+ul li{
+    list-style: none;
+    margin-left: -35px;
+    margin-top: 13px;
+    font-family: cursive;
+}
+.cote {
+    display: inline-flex;
+}
+h6 a{
+    color: #000;
+    position: relative;
+    margin-left: 114px;
+    font-size: 14px;
+    top: -9px;
+}
+h6 a:hover:hover{
+    color: orange;
+}
+.cote{
+    margin-left: 763px;
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 123px;
+}
+
+.forms{
+    background-color: #fff;
+    right: 3px;
+    position: absolute;
+    top: 192px;
+    margin-right: 36px;
+    width: 205px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ .forms a{
+    color: #000;
+}
+h4{
+    font-family: sans-serif;
+    text-align: center;
+}
+.forms h4 :hover{
+    color: orange;
+
+}
+.offre img{
+    float: right;
+    margin-right: 38px;
+    position: relative;
+    top: -180px;
+}
+.fa-shopping-cart:before{
+    content: "\f07a";
+    position: relative;
+    left: -6px;
+}
+.fa-search:before {
+    color: black;
+    position: relative;
+    left: 312px;
+}
+.fa-question-circle:before{
+    top: 1px;
+    content: "\f059";
+    position: absolute;
+    left: -16px;
+}
+.fa-user-o:before{
+    content: "\f2c0";
+    position: absolute;
+    left: -17px;
+    top: 1px;
+}
+.fa-apple:before {
+    content: "\f179";
+    position: relative;
+    left: -4px;
+    font-size: 15px;
+}
+.fa-magic:before {
+    content: "\f0d0";
+    position: relative;
+    left: -4px;
+    font-size: 15px;
+}
+.fa-mobile:before {
+    content: "\f10b";
+    position: relative;
+    left: -4px;
+    font-size: 19px;
+}
+.fa-desktop:before{
+    content: "\f108";
+    position: relative;
+    left: -4px;
+}
+.fa-university:before{
+    content: "\f19c";
+    position: relative;
+    left: -4px;
+}
+.fa-futbol-o:before{
+    content: "\f1e3";
+    position: relative;
+    left: -4px;
+}
+.fa-sitemap:before{
+    content: "\f0e8";
+    position: relative;
+    left: -5px;
+}
+.fa-volume-control-phone:before{
+    top: 10px;
+    content: "\f2a0";
+    position: relative;
+    left: -9px;
+    font-size: 29px;
+}
+.cn{
+    top: 23;
+    position: relative;
+    width: 285px;
+    background: #fff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    font-size: 27px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0px;
+}
+.cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+    position: relative;
+    left: -44px;
+    top: -13px;
+    font-size: 24px;
+}
+.cr{
+    position: relative;
+    width: 250px;
+    background: #fff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    font-size: 27px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0px;
+    float: right;
+    left: 222px;
+    top: -48px;
+}
+.cr a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+    position: relative;
+    left: -24px;
+    top: -13px;
+    font-size: 24px;
+}
+.bn{
+    top: 23;
+    position: relative;
+    width: 250px;
+    background: #fff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    font-size: 27px;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 0px;
+}
+.bn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+    position: relative;
+    left: -24px;
+    top: -13px;
+    font-size: 24px;
+}
+.plus{
+    color: black;
+    margin: 33px;
+    background: white;
+    position: relative;
+    left: -2px;
+    padding-bottom: 28px;
+}
+.demander{
+    display: flex;
+    padding: 0px;
+    transition: 0.5s;
+}
+.demander img{
+    margin: 21px;
+    height: 149px;
+    width: 224px;
+}
+.demander img:hover{
+    z-index: 1;
+    transform: scale(1.2);
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
+.info{
+    font-family: none;
+    font-size: 15px;
+    position: absolute;
+    top: 180px;
+    left: 6px;
+    color: black;
+}
+.band{
+    font-family: none;
+    position: absolute;
+    font-size: 15px;
+    top: 182px;
+    left: 195px;
+    color: #000;
+    
+}
+.sprk{
+    font-family: none;
+    top: 176px;
+    position: absolute;
+    font-size: 15px;
+    left: 401px;
+    color: #000;
+}
+.ecran{
+    font-family: none;
+    left: 586px;
+    position: absolute;
+    font-size: 15px;
+    top: 179px;
+    color: #000;
+}
+.x4{
+    font-family: none;
+    position: absolute;
+    font-size: 15px;
+    left: 772px;
+    top: 178px;
+    color: #000;
+}
+.super{
+    font-family: none;
+    position: absolute;
+    font-size: 15px;
+    left: 956px;
+    top: 176px;
+    color: #000;
+}
+.nos{
+    display: flex;
+    margin: 19px;
+    padding: 7px;
+    position: relative;
+    top: -24px;
+}
+.marque{
+    position: relative;
+    left: 3px;
+    transition: 0.5s;
+}
+
+.marque img{
+    height: 250px;
+    width: 580px;
+    margin-right: 17px;
+    margin-bottom: 14px;
+    border: solid;
+}
+.marque img:hover{
+    z-index: 1;
+    transform: scale(1.0,1);
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
+.cr7{
+    color: black;
+    margin: 33px;
+    background: white;
+    left: -5px;
+    padding-bottom: 3px;
+    padding-top: 14px;
+    position: relative;
+    top: -63px;
+}
+.mark{
+    display: flex;
+    margin: 4px;
+    transition: 0.5s;
+}
+
+.mark img{
+    height: 92px;
+    width: 198px;
+}
+.mark img:hover{
+    z-index: 1;
+    transform: scale(1.1);
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
+.bnr{
+     display: flex;  
+}
+.bnr img{
+    left: 24px;
+    position: relative;
+    width: 1201px;
+    top: -78px;
+    border: solid;
+}
+.sb{
+    color: black;
+    margin: 22px;
+    background:rgb(255, 208, 0);
+    width: 1185px;
+    position: relative;
+    top: -87px;
+    padding: 13px;
+}
+.les2{
+    position: relative;
+    background: white;
+    padding-bottom: 69px;
+    width: 1213px;
+    margin: 21px;
+    top: -116px;
+}
+.bs1{
+    display: flex;
+}
+.bs1 img{
+    height: 139px;
+    width: 185px;
+    position: relative;
+    left: 10px;
+    padding: 8px;
+}
+.bs2{
+    display: flex;
+}
+.bs2 img{
+    height: 139px;
+    width: 185px;
+    position: relative;
+    left: 10px;
+    padding: 8px;
+    top: 41px;
+}
+.scorps {
+    color: #000;
+    font-family: sans-serif;
+}
+.bucco{
+    color: #000;
+    font-family: sans-serif;
+}
+.erotisme{
+    color: #000;
+    font-family: sans-serif;
+}
+.hyg{
+    color: #000;
+    font-family: sans-serif;
+}
+.nut{
+    color: #000;
+    font-family: sans-serif;
+}
+.opt{
+    color: black;
+    font-family: sans-serif;
+}
+.pace{
+    color: black;
+    margin: 22px;
+    background: rgb(255, 208, 0);
+    width: 1185px;
+    position: relative;
+    top: -129px;
+    padding: 13px;
+}
+.spaces{
+    position: relative;
+    background: white;
+    padding-bottom: 69px;
+    width: 1213px;
+    margin: 21px;
+    top: -151px;
+
+}
+.spcbt{
+    display: flex;
+}
+.spcbt img{
+    margin: 21px;
+    height: 145px;
+    width: 161px
+}
+.acswr{
+    background: white;
+    position: relative;
+    left: 20px;
+    top: -191px;
+    width: 1218px;
+    padding-bottom: 32px;
+}
+.accetel{
+    display: flex;
+    margin: 5px;
+    transition: 0.5s;
+    margin-right: 12px;
+}
+.accetel img{
+        height: 108px;
+    width: 183px;
+    margin-right: 22px;
+}
+.ecouteur{
+    left: 24px;
+    color: black;
+    position: absolute;
+    top: 101px;
+    font-family: sans-serif;
+}
+.batterie{
+    color: black;
+    position: absolute;
+    left: 271px;
+    top: 101px;
+    font-family: sans-serif
+}
+.cable{
+    left: 484px;
+    color: black;
+    position: absolute;
+    top: 100px;
+    font-family: sans-serif;
+}
+.casque{
+    COLOR: BLACK;
+    position: absolute;
+    right: 481px;
+    top: 100px;
+    font-family: sans-serif;
+}
+.carte{
+    color: black;
+    position: absolute;
+    right: 247px;
+    top: 99px;
+    font-family: sans-serif;
+}
+.Adaptateur_{
+    color: black;
+    position: absolute;
+    right: 57px;
+    top: 99px;
+    font-family: sans-serif
+}
+.connecter{
+    position: relative;
+    background: white;
+    padding-bottom: 69px;
+    width: 1222px;
+    margin: 18px;
+    top: -219px;
+}
+.niarr{
+    display: flex;
+    background: white;
+    position: relative;
+    top: -228px;
+    padding: 9px;
+    width: 1209px;
+    margin: 15px;
+}
+.niarr img{
+    top: 364px;
+    width: 596px;
+    border: white solid;
+    margin-right: 5px;
+    padding: 0px;
+}
+.marche{
+    display: flex;
+    background: white;
+    position: relative;
+    left: 13px;
+    top: -249px;
+    width: 1232px;
+    padding-bottom: 32px;
+}
+.marche img{
+    height: 128px;
+    width: 180px;
+    margin-right: 27px;
+}
+.Boisson{
+    left: 52px;
+    color: black;
+    position: absolute;
+    top: 113px;
+    font-family: sans-serif;
+}
+.cafe{
+    color: black;
+    position: absolute;
+    left: 281px;
+    top: 116px;
+    font-family: sans-serif
+}
+.Pate{
+    left: 484px;
+    color: black;
+    position: absolute;
+    top: 117px;
+    font-family: sans-serif;
+}
+.soupe{
+    COLOR: BLACK;
+    position: absolute;
+    right: 439px;
+    top: 118px;
+    font-family: sans-serif;
+}
+.sucre{
+    color: black;
+    position: absolute;
+    right: 284px;
+    top: 117px;
+    font-family: sans-serif;
+}
+.riz{
+    color: black;
+    position: absolute;
+    right: 68px;
+    top: 119px;
+    font-family: sans-serif
+}
+.ayylek{
+    position: relative;
+    background: white;
+    padding-bottom: 69px;
+    width: 1235px;
+    margin: 12px;
+    top: -266px;
+}
+.aycoll{
+    position: relative;
+    background: white;
+    padding-bottom: 69px;
+    width: 1235px;
+    margin: 12px;
+    top: -266px;
+}
+.sondollar{
+    color: black;
+    margin: 12px;
+    background: white;
+    left: -3px;
+    padding-bottom: 3px;
+    padding-top: 14px;
+    position: relative;
+    top: -266px;
+}
+.creation{
+    display: flex;
+    margin: 4px;
+    transition: 0.5s;
+}
+.creation img{
+    height: 92px;
+    width: 205px;
+}
+.creation img:hover{
+    z-index: 1;
+    transform: scale(1.1);
+    box-shadow: 0 25px 40px rgba(0,0,0,0.5);
+}
+.telee{
+    display: flex;
+    background: white;
+    position: relative;
+    left: 13px;
+    top: -249px;
+    width: 1232px;
+    padding-bottom: 32px
+}
+.telee img{
+    height: 128px;
+    width: 180px;
+    margin-right: 27px;
+}
+
+.smatr-tvs{
+    left: 52px;
+    color: black;
+    position: absolute;
+    top: 113px;
+    font-family: sans-serif;
+}
+.tvs-leds{
+    color: black;
+    position: absolute;
+    left: 242px;
+    top: 116px;
+    font-family: sans-serif
+}
+.home-chenema{
+    left: 461px;
+    color: black;
+    position: absolute;
+    top: 117px;
+    font-family: sans-serif;
+}
+.audio-hi-fi{
+    COLOR: BLACK;
+    position: absolute;
+    right: 468px;
+    top: 118px;
+    font-family: sans-serif;
+}
+.acce-tv{
+    color: black;
+    position: absolute;
+    right: 254px;
+    top: 117px;
+    font-family: sans-serif;
+}
+.acce-camera{
+    color: black;
+    position: absolute;
+    right: 20px;
+    top: 119px;
+    font-family: sans-serif
+}
+.youmodj{
+    position: relative;
+    background: white;
+    padding-bottom: 69px;
+    width: 1235px;
+    margin: 12px;
+    top: -256px;
+}
+.description{
+    background: #fff;
+    padding: 19px;
+    width: 1199px;
+    left: 10px;
+    position: relative;
+    margin: 2px;
+    bottom: 252px;
+    padding-bottom: 142px;
+    font-family: serif;
+}
+.avent{
+    background: rgb(53, 51, 51);
+    padding: 45px;
+    margin: 0px;
+    margin-top: -211px;
+}
+footer{
+   
+    background: rgb(94, 92, 92);
+    height: 214px;
+    position: relative;
+    padding-top: 71px ;
+}
+.apropos{
+    color: #fff;
+}
+td{
+    font-family: sans-serif;
+}
+td a:hover{
+    
+    text-decoration: underline;
+}
+.fa-facebook{
+    content: "\f082";
+    position: absolute;
+    left: 513px;
+    color: white;
+    top: 265px;
+}
+.fa-twitter:before{
+    content: "\f099";
+    position: absolute;
+    left: 540px;
+    color: white;
+}
+.fa-instagram:before{
+    content: "\f16d";
+    position: absolute;
+    left: 566px;
+    color: white;
+}
+.fa-envelope:before{
+    content: "\f0e0";
+    position: absolute;
+    top: -91px;
+    left: 355px;
+    color: darkgray;
+}
